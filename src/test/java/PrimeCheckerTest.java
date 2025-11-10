@@ -11,7 +11,12 @@ public class PrimeCheckerTest {
     }
 
     @Test
-    public void test1IsNOtPrime() {
+    public void test1IsNotPrime() {
         assertFalse(primeChecker.isPrime(1), "1 should not be considered a prime number");
+    }
+
+    @Test
+    public void test2IsNotPrime() {
+        assertFalse(primeChecker.isPrime(2), "2 is a prime number");
     }
 }

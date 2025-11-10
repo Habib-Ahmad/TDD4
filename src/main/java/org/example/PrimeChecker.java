@@ -5,6 +5,11 @@ public class PrimeChecker {
         if (number == 1) {
             return false;
         }
+
+        if (number == 2) {
+            throw new UnsupportedOperationException("Not implemented yet");
+        }
+
         return false;
     }
 }
